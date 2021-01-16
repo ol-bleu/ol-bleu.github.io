@@ -1,49 +1,43 @@
-$text-color: #171738;
-$font: 'Quicksand', sans-serif;
-$background: rgb(255,255,255);
-$background-gradient: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(251,134,255,0.30344012605042014) 100%);
-$hover-color: #72ddf7;
-$border-color: #0C1F53 ;
 body {
-  margin: 0 auto;
-  max-width: 800px;
-  background: $background;
-  background: $background-gradient;
+	 margin: 0 auto;
+	 max-width: 800px;
+	 background: #fff;
+	 background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(251, 134, 255, 0.30344012605042014) 100%);
 }
-.profile-pic {
-  margin-top: 50px;
-  margin-bottom: 20px;
+ .profile-pic {
+	 margin-top: 50px;
+	 margin-bottom: 20px;
 }
-.profile-pic img {
-  margin: 0 auto;
-  display: block;
-  max-height: 200px;
-  border-radius: 50%;
-  border: solid 3px $border-color;
+ .profile-pic img {
+	 margin: 0 auto;
+	 display: block;
+	 max-height: 200px;
+	 border-radius: 50%;
+	 border: solid 3px #0c1f53;
 }
-.name {
-  font-family: $font;
-  font-size: 40px;
-  text-align: center;
+ .name {
+	 font-family: 'Quicksand', sans-serif;
+	 font-size: 40px;
+	 text-align: center;
 }
-.link-container a{
-  text-decoration: none;
-  color: $text-color;
-  font-family: $font;
-  font-size: 25px;
+ .link-container a {
+	 text-decoration: none;
+	 color: #171738;
+	 font-family: 'Quicksand', sans-serif;
+	 font-size: 25px;
 }
-.link-container ul {
-  list-style: none;
+ .link-container ul {
+	 list-style: none;
 }
-.link-container a:hover{
-  text-decoration: underline;
-  color: $hover-color;
+ .link-container a:hover {
+	 text-decoration: underline;
+	 color: #72ddf7;
 }
-.link-box {
-  width: 400px;
-  text-align: center;
-  border: solid 2px $border-color;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 20px auto;
+ .link-box {
+	 width: 400px;
+	 text-align: center;
+	 border: solid 2px #0c1f53;
+	 border-radius: 10px;
+	 padding: 10px;
+	 margin: 20px auto;
 }
