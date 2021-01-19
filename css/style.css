@@ -1,23 +1,28 @@
 html {
-	padding: 100px;
+	padding: 10px 100px 100px 100px;
 	background: linear-gradient(360deg, white 0%, rgba(251, 134, 255, 0.30344) 100%);
 	background-repeat: no-repeat;
 }
 
 body {
-	margin: auto;
-	  -webkit-transform: scale(0.80);
-       -moz-transform: scale(0.80);
-            transform: scale(0.80);
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.profile-pic {
+	margin: 0 auto;
+	padding: 0;
+	margin-bottom: 50px;
 }
 
 .profile-pic img {
 	display: block;
-	max-height: 200px;
+	max-width: 200px;
 	border-radius: 50%;
 	border: solid 3px #0C1F53;
-	margin: 0 auto;
 	margin-bottom: 50px;
+	margin: 0 auto;
 }
 
 .name {
@@ -51,10 +56,9 @@ body {
 .link-box {
 	max-width: 600px;
 	text-align: center;
-	border: solid 2px #0C1F53;
-	border-radius: 10px;
+	border-bottom: solid 2px #0C1F53;
 	padding: 10px;
-	margin: 20px auto;
+	margin: 30px auto;
 }
 
 .social-banner {
