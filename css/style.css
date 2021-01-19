@@ -49,8 +49,7 @@ body {
 .link-box {
 	max-width: 300px;
 	text-align: center;
-	border: solid 2px #0C1F53;
-	border-radius: 10px;
+	border-bottom: solid 2px #0C1F53;
 	padding: 10px;
 	margin: 20px auto;
 }
