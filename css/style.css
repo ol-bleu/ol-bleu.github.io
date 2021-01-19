@@ -1,73 +1,66 @@
+$text-color: #171738;
+$font: 'Quicksand', sans-serif;
+$background: rgb(255,255,255);
+$background-gradient: linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(251,134,255,0.30344012605042014) 100%);
+$hover-color: #72ddf7;
+$border-color: #0C1F53 ;
 html {
-	padding: 100px;
-	background: linear-gradient(360deg, white 0%, rgba(251, 134, 255, 0.30344) 100%);
-	background-repeat: no-repeat;
-}
+  padding: 100px;
 
+  background: $background-gradient;
+  background-repeat: no-repeat;
+}
 body {
-	margin: auto;
-	max-width: 800px;
-	-webkit-transform: scale(0.80);
-       -moz-transform: scale(0.80);
-        transform: scale(0.80);
+  margin: auto;
 }
-
 .profile-pic img {
-	display: block;
-	max-height: 200px;
-	border-radius: 50%;
-	border: solid 3px #0C1F53;
-	margin: 0 auto;
-	margin-bottom: 50px;
+  display: block;
+  max-height: 200px;
+  border-radius: 50%;
+  border: solid 3px $border-color;
+margin: 0 auto;
+  margin-bottom: 50px
 }
-
 .name {
-	font-family: "Quicksand", sans-serif;
-	font-size: 40px;
-	text-align: center;
+  font-family: $font;
+  font-size: 40px;
+  text-align: center;
 }
-
 .link-container {
-	display: block;
+  display: block;
 }
-
-.link-container a {
-	text-decoration: none;
-	color: #171738;
-	font-family: "Quicksand", sans-serif;
-	font-size: 25px;
+.link-container a{
+  text-decoration: none;
+  color: $text-color;
+  font-family: $font;
+  font-size: 25px;
 }
-
 .link-container ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
-.link-container a:hover {
-	text-decoration: underline;
-	color: #72ddf7;
+.link-container a:hover{
+  text-decoration: underline;
+  color: $hover-color;
 }
-
 .link-box {
-	max-width: 300px;
-	text-align: center;
-	border-bottom: solid 2px #0C1F53;
-	padding: 10px;
-	margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+  border: solid 2px $border-color;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px auto;
 }
-
 .social-banner {
-	text-align: center;
+  text-align: center;
 }
-
 .social-banner img {
-	margin-top: 35px;
-	margin: 0 auto;
-	padding: 20px;
-	max-width: 20px;
+  margin-top: 35px;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 30px;
 }
-
 .social-banner img:hover {
-	opacity: 75%;
+  opacity: 75%;
 }
