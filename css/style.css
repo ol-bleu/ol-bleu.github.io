@@ -6,6 +6,9 @@ html {
 
 body {
 	margin: auto;
+	  -webkit-transform: scale(0.80);
+       -moz-transform: scale(0.80);
+            transform: scale(0.80);
 }
 
 .profile-pic img {
@@ -56,6 +59,7 @@ body {
 
 .social-banner {
 	text-align: center;
+	max-width: 100%;
 }
 
 .social-banner img {
