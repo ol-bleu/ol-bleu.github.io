@@ -1,5 +1,5 @@
 html {
-	padding: 10px 100px 100px 100px;
+	padding: 10px;
 	background: linear-gradient(360deg, white 0%, rgba(251, 134, 255, 0.30344) 100%);
 	background-repeat: no-repeat;
 }
@@ -12,7 +12,8 @@ body {
 
 .profile-pic {
 	display: block;
-	max-width: 200px;
+	max-width: 150px;
+	height: 100%;
 	border-radius: 50%;
 	border: solid 3px #0C1F53;
 	margin-bottom: 50px;
