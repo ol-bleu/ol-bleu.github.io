@@ -54,3 +54,18 @@ body {
 	padding: 10px;
 	margin: 20px auto;
 }
+
+.social-banner {
+	text-align: center;
+}
+
+.social-banner img {
+	margin-top: 35px;
+	margin: 0 auto;
+	padding: 20px;
+	max-width: 20px;
+}
+
+.social-banner img:hover {
+	opacity: 75%;
+}
