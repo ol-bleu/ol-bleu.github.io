@@ -7,6 +7,9 @@ html {
 body {
 	margin: auto;
 	max-width: 800px;
+	-webkit-transform: scale(0.80);
+       -moz-transform: scale(0.80);
+        transform: scale(0.80);
 }
 
 .profile-pic img {
