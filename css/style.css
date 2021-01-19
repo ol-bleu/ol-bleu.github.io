@@ -1,12 +1,12 @@
 html {
 	padding: 100px;
+	background: linear-gradient(360deg, white 0%, rgba(251, 134, 255, 0.30344) 100%);
+	background-repeat: no-repeat;
 }
 
 body {
 	margin: auto;
 	max-width: 800px;
-	background: white;
-	background: linear-gradient(180deg, white 0%, rgba(251, 134, 255, 0.30344) 100%);
 }
 
 .profile-pic img {
