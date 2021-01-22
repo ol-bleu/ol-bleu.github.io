@@ -61,6 +61,7 @@ body {
 .social-banner {
 	text-align: center;
 	max-width: 100%;
+	filter: invert(1);
 }
 
 .social-banner img {
