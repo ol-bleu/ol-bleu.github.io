@@ -1,7 +1,6 @@
 html {
 	padding: 10px;
-	background: linear-gradient(360deg, white 0%, rgba(251, 134, 255, 0.30344) 100%);
-	background-repeat: no-repeat;
+	background: url('space.gif')
 }
 
 body {
